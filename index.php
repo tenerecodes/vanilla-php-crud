@@ -32,3 +32,9 @@ $get_users = mysqli_query($conn, "SELECT * FROM users order by id desc");
   </tr>
   <?php }?>
 </table>
+
+
+<br>
+<br>
+<br>
+<a href="create_user.php"><button style="background-color:white" type="button">Create</button></a>
